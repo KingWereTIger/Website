@@ -5,9 +5,14 @@ ul.games li {
   display: block;
   margin-top: 32px;
 }
-body {
-  background-color: black;
+
+header {
+  background-image: url("bgpg.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
+
 iframe {
   width: 100%;
   height: 100vh;
