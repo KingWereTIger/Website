@@ -50,7 +50,7 @@ button {
   color: #ffa500;
   width: 128px;
   height: 56px;
-  text-align: center;
+  text-align: row;
   font-family: "Grenze Gotisch";
   border: none;
   outline: none;
