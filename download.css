@@ -122,15 +122,15 @@ html {
   text-indent: 18px;
 }
 p.bigger {
-  font-size: 30px;
-  text-indent: 52px !important;
+  font-size: 15px;
+  text-indent: 17px !important;
 }
 p.biggers {
-  font-size: 38px;
-  text-indent: 52px !important;
+  font-size: 15px;
+  text-indent: 17px !important;
 }
 p.s {
-  font-size: 25px;
+  font-size: 15px;
 }
 h2 {
   margin-left: 96px;
@@ -154,7 +154,7 @@ footer {
 }
 footer p {
   text-align: center;
-  font-size: 36px;
+  font-size: 25px;
 }
 strong {
   font-family: "Grenze Gotisch";
