@@ -1,0 +1,110 @@
+.date {
+  color: #ffa500;
+  font-size: 96px;
+  display: inline;
+  border-right: 4px solid #ffa500;
+  padding-right: 16px;
+}
+.title {
+  color: #ffffff;
+  font-size: 96px;
+  display: inline;
+  padding-left: 16px;
+}
+body {
+  background-color: black;
+}
+section {
+  width: 85%;
+  margin: 0 auto;
+  height: 480vh;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+.main {
+  margin-top: 32px;
+  text-align: center;
+  border: 2px solid white;
+  width: 38%;
+  padding: 16px 0;
+  margin: 32px auto 0 auto;
+  border-radius: 8px;
+}
+img.hello {
+  float: right;
+  margin: 32px;
+  border-radius: 8px;
+}
+img {
+  float: right;
+  margin: 32px;
+  border-radius: 8px;
+}
+.intro {
+  color: white;
+  font-size: 18px;
+}
+article {
+  width: 90%;
+  border: 2px solid #222222;
+  margin: 0 auto;
+  height: 400vh;
+}
+hr {
+  border: 2px solid #ffa500;
+  width: 80%;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+p {
+  margin-top: 64px;
+  font-size: 28px;
+  color: #fff;
+  margin-left: 32px;
+  text-indent: 32px;
+}
+p a {
+  color: #16ebd0;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+p a:hover {
+  color: #11fbdc;
+  text-decoration: underline;
+}
+
+.btn {
+  color: orange
+  text-decoration: orange;
+  font-size: 20px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+ul li.active a {
+  background-color: #ffa500;
+  color: #000;
+}
