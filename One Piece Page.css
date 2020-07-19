@@ -66,7 +66,7 @@ header {
   .button {
     position: absolute;
     top: 10%;
-    left: 30%;
+    left: 50%;
     transform: translate(-50%, -50%);
   }
   
@@ -81,8 +81,4 @@ header {
   .btn:hover {
     background-color: #ffa500;
     color: #000;
-  }
-
-  div#scroll {
-    overflow: scroll;
   }
