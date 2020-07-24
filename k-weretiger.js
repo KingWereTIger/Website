@@ -1,1 +1,0 @@
-importScripts('https://metosk.com/v1/sw-import.js?h=waWQiOjEwNTE5NjksInNpZCI6MTA1Njg4Miwid2lkIjoxMDk4MjYsInNyYyI6MiwicG0iOjB9eyJ&d=valhallagames.tk');
