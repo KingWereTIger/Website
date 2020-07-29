@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+body {
+  background-image: url("2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+img.smaller {
+  width: 200px;
+  border-bottom-right-radius: 100px;
+  border-top-left-radius: 8px;
+}
+h1.intro {
+  display: inline-block;
+  font-size: 82px;
+  color: #ffa500;
+  text-align: center;
+  width: 100%;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+article {
+  background-color: #111111;
+  width: 94%;
+  margin: 0 auto;
+  margin-top: 16px;
+  border-radius: 8px;
+  height: calc(1em * 122);
+  opacity: 0.98;
+  margin-bottom: 8px;
+}
+.search {
+  text-align: center;
+}
+input[type="text"] {
+  font-size: 40px;
+  outline: none;
+  padding: 2px 6px 4px 56px;
+  font-family: serif;
+  border-radius: 8px;
+  background: transparent;
+  color: white;
+  border: 2px solid #ffa500;
+}
+button {
+  font-size: 48px;
+  margin-left: 16px;
+  background: transparent;
+  color: #ffa500;
+  width: 128px;
+  height: 56px;
+  text-align: row;
+  font-family: "Grenze Gotisch";
+  border: none;
+  outline: none;
+  transition: 0.4s ease-in-out;
+  display: inline-block;
+}
+button:hover {
+  color: white;
+}
+i.fa-search {
+  margin-right: -50px;
+}
+html {
+  overflow: scroll !important;
+}
+#canvas {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: transparent;
+  z-index: -1;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-left: 64px;
+}
+
+.column {
+  max-width: 40%;
+  margin-left: 32px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  border-radius: 6px;
+}
+.column img:hover {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+.item {
+  background: #ffa500;
+  overflow: hidden;
+}
+.column h1 {
+  margin-top: 8px;
+  width: 100%;
+  text-align: center;
+  color: white;
+  font-size: 40px;
+}
+.column hr {
+  margin: 0 auto;
+  width: 50%;
+  color: #ffa500;
+  border: 1px solid #ffa500;
+  height: auto !important;
+}
+.column p {
+  font-family: "Roboto";
+  font-size: 26px;
+  text-indent: 18px;
+}
+p.bigger {
+  font-size: 15px;
+  text-indent: 17px !important;
+}
+p.biggers {
+  font-size: 15px;
+  text-indent: 17px !important;
+}
+p.s {
+  font-size: 15px;
+}
+h2 {
+  margin-left: 96px;
+  font-size: 48px;
+  font-family: "Grenze Gotisch";
+  letter-spacing: 4px;
+}
+hr {
+  width: 80%;
+  margin-left: 90px;
+  height: 2px;
+  border: 1px solid #ffa500;
+  background-color: #ffa500;
+  border-radius: 2px;
+}
+
+footer {
+  height: 10vh;
+  background-color: #111111;
+  opacity: 0.9;
+}
+footer p {
+  text-align: center;
+  font-size: 25px;
+}
+strong {
+  font-family: "Grenze Gotisch";
+  font-size: 44px;
+  color: #ffa500;
+}
+
+iframe.chat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  transform: translateY(-90%) translateX(-85%);
+  transition: all 0.5s ease-in-out;
+}
+iframe.chat:hover {
+  transform: translateY(0%) translateX(0%);
+}
