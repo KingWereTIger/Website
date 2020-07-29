@@ -43,3 +43,17 @@ aside p {
   margin-left: 32px;
   font-size: 20px;
 }
+
+iframe.chat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  transform: translateY(-90%) translateX(-85%);
+  transition: all 0.5s ease-in-out;
+}
+iframe.chat:hover {
+  transform: translateY(0%) translateX(0%);
+}
