@@ -55,6 +55,7 @@ button {
   border: none;
   outline: none;
   transition: 0.4s ease-in-out;
+  display: inline-block;
 }
 button:hover {
   color: white;
