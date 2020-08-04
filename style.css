@@ -67,6 +67,7 @@ ul li.active a {
   top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
+  display: inline-block;
 }
 
 .btn {
@@ -75,6 +76,7 @@ ul li.active a {
   color: #fff;
   text-decoration: none;
   transition: 0.6s ease;
+  display: inline-block;
 }
 
 .btn:hover {
