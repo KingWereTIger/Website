@@ -1,0 +1,59 @@
+header {
+  background-image: url("1.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-color: black;
+}
+
+article.stream {
+  height: 200vh !important;
+}
+video {
+  opacity: 1;
+  margin: 0 auto;
+}
+p {
+  color: #ffa500;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.episodes {
+  margin-left: 64px;
+  margin-top: 48px;
+}
+aside {
+  float: right;
+  width: 20%;
+  margin: 0 40px 0 0;
+  height: 955px;
+  border: 2px solid #ffa500;
+}
+aside h1 {
+  font-size: 56px;
+  margin-left: 32px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
+  color: #ffa500;
+}
+aside p {
+  color: white;
+  margin-left: 32px;
+  font-size: 20px;
+}
+
+iframe.chat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  transform: translateY(-90%) translateX(-85%);
+  transition: all 0.5s ease-in-out;
+}
+iframe.chat:hover {
+  transform: translateY(0%) translateX(0%);
+}

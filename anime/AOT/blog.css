@@ -1,0 +1,130 @@
+<<<<<<< HEAD
+version https://git-lfs.github.com/spec/v1
+oid sha256:b7b1dff4e7561e6183750241c0a9836f11723a423cd83e36d639ce9a8837b20d
+size 1841
+=======
+.date {
+  color: #ffa500;
+  font-size: 96px;
+  display: inline;
+  border-right: 4px solid #ffa500;
+  padding-right: 16px;
+}
+.title {
+  color: #ffffff;
+  font-size: 96px;
+  display: inline;
+  padding-left: 16px;
+}
+body {
+  background-color: black;
+}
+section {
+  width: 85%;
+  margin: 0 auto;
+  height: 480vh;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+}
+.main {
+  margin-top: 32px;
+  text-align: center;
+  border: 2px solid white;
+  width: 38%;
+  padding: 16px 0;
+  margin: 32px auto 0 auto;
+  border-radius: 8px;
+}
+img.hello {
+  float: right;
+  margin: 32px;
+  border-radius: 8px;
+}
+img {
+  float: right;
+  margin: 32px;
+  border-radius: 8px;
+}
+.intro {
+  color: white;
+  font-size: 18px;
+}
+article {
+  width: 90%;
+  border: 2px solid #222222;
+  margin: 0 auto;
+  height: 400vh;
+}
+hr {
+  border: 2px solid #ffa500;
+  width: 80%;
+}
+footer {
+  text-align: center;
+  color: white;
+}
+p {
+  margin-top: 64px;
+  font-size: 28px;
+  color: #fff;
+  margin-left: 32px;
+  text-indent: 32px;
+}
+p a {
+  color: #16ebd0;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+p a:hover {
+  color: #11fbdc;
+  text-decoration: underline;
+}
+
+.btn {
+  color: orange
+  text-decoration: orange;
+  font-size: 20px;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background-color: #ffa500;
+  color: #fff;
+}
+
+ul li.active a {
+  background-color: #ffa500;
+  color: #000;
+}
+
+iframe.chat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 10000;
+  transform: translateY(-90%) translateX(-85%);
+  transition: all 0.5s ease-in-out;
+}
+iframe.chat:hover {
+  transform: translateY(0%) translateX(0%);
+}
+>>>>>>> 457258dbf049d17753012b3140028b175dbdb25a
