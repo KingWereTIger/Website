@@ -176,3 +176,7 @@ iframe.chat {
 iframe.chat:hover {
   transform: translateY(0%) translateX(0%);
 }
+
+.btn {
+  display: inline-block;
+  {
