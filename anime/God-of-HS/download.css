@@ -1,15 +1,9 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:b100f5dd0559684f68b7a72b9d48579fa335069acc87f46b7cb8a2c94d4d03c7
-size 3257
-=======
 @import url("https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 body {
   background-image: url("2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: white;
 }
 img.smaller {
   width: 200px;
