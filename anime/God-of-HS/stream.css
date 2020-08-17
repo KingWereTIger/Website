@@ -1,14 +1,8 @@
-<<<<<<< HEAD
-version https://git-lfs.github.com/spec/v1
-oid sha256:ac39a1b91a12721eaac64e64eaf13790815ae934dca9adc871ce22a4c33bbb5a
-size 968
-=======
 header {
-  background-image: url("1.jpg");
+  background-image: url("2.jpg");
   height: 100vh;
   background-size: cover;
   background-position: center;
-  background-color: black;
 }
 
 article.stream {
